@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css?v=2">
+    <link rel="icon" href="img/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="img/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" sizes="180x180">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <style>
+      html {
+        font-size: 16px !important;
+        zoom: 1 !important;
+        transform: none !important;
+        -webkit-text-size-adjust: 100% !important;
+        -ms-text-size-adjust: 100% !important;
+      }
+      body {
+        font-size: 1rem !important;
+        zoom: 1 !important;
+        transform: none !important;
+      }
+      .partners-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1.25rem;
+        margin-top: 1rem;
+      }
+      .partner-card {
+        background: #fff;
+        border-radius: 8px;
+        padding: 1rem;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        text-align: center;
+      }
+      .partner-card img { max-width: 100%; height: 120px; object-fit: contain; margin-bottom: 0.5rem; }
+      .partner-card h3 { margin: 0.25rem 0; font-size: 1.05rem; }
+      .partner-card p { color: #444; font-size: 0.95rem; }
+      .partner-card a { display: inline-block; margin-top: 0.5rem; color: #0366d6; text-decoration: none; }
+    </style>
+    <title>Partenaires</title>
+  </head>
+  <body>
+    <nav class="site-nav">
+      <a href="index.html" class="logo-link">
+        <img src="img/HydrofluxLogo.png" alt="HydraFlux logo">
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Accueil</a>
+        <a href="projet.html">Notre projet</a>
+        <a href="Partenaires.html" class="active">Partenaires</a>
+        <a href="equipe.html">Qui sommes-nous ?</a>
+      </div>
+    </nav>
+
+    <header>
+      <h1>Ils nous font confiance</h1>
+    </header>
+
+    <main class="container">
+      <section class="partners">
+        <p>
+          Nous remercions nos partenaires pour leur soutien et leur collaboration dans le développement de notre technologie. Leur expertise et leur engagement envers l'innovation durable sont essentiels à notre succès.
+        </p>
+        <h2>Nos partenaires stratégiques</h2>
+
+        <div class="partners-grid">
+          <article class="partner-card">
+            <img src="img/Alveora.png">
+            <h3>Alvéora</h3>
+            <p>Fournisseur de systèmes modulaires pour l’intégration des membranes.</p>
+
+          </article>
+
+          <article class="partner-card">
+            <img src="img/ARBE.png">
+            <h3>L'ARBE</h3>
+            <p>Structure régionale engagée dans la promotion de la mobilité durable et de l’écoconception.</p>
+
+          </article>
+
+          <article class="partner-card">
+            <img src="img/Ecovia.png" alt="Eco Labs logo">
+            <h3>Ecovia</h3>
+            <p>Organisme de développement durable, spécialisé dans les projets d’innovation écologique.</p>
+
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>HydroFlux • Tous droits réservationnés.</footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
